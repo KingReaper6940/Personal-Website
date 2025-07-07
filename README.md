@@ -1,4 +1,4 @@
-# Rishabhsai website remake
+# Vrishn Viswa's personal CV website
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
