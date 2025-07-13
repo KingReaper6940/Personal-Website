@@ -212,7 +212,7 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
       company: "Personal Projects",
       date: "2022 - Present",
       description:
-        "Developed multiple web applications including Project One, Veswo Bot, Nittany Eats, and Aura, focusing on user experience, scalable architecture, and LLM integration for intelligent features. Created professional websites for modern management companies with emphasis on performance optimization and responsive design.",
+        "Developed multiple web applications including Aura, Vynn AIO Content, Clone Date AI, Briefly, Hidaya Spirit Guide, TrendFlip AI, Project One, Veswo Bot, and Nittany Eats, focusing on user experience, scalable architecture, and LLM integration for intelligent features. Created professional websites for modern management companies with emphasis on performance optimization and responsive design. Specialized in AI-powered applications including content generation, dating algorithms, summarization tools, and spiritual guidance platforms.",
     },
     {
       title: "President",
@@ -240,6 +240,38 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
       award: "University of West London National Science Fair Winner",
     },
     {
+      title: "Vynn AIO Content",
+      description:
+        "All-in-one content creation platform powered by AI that generates, optimizes, and manages digital content across multiple formats. Streamlines content workflows for creators and businesses with intelligent automation and comprehensive content management tools.",
+      tech: ["Next.js", "Python", "OpenAI API", "TypeScript", "TailwindCSS", "PostgreSQL"],
+      github: "https://github.com/KingReaper6940/Vynnn",
+      status: "Co-founder",
+    },
+    {
+      title: "Clone Date AI",
+      description:
+        "Innovative AI dating application that creates personalized dating experiences through intelligent matching algorithms and conversation starters. Built with modern web technologies to revolutionize how people connect and find meaningful relationships.",
+      tech: ["React", "Node.js", "AI/ML", "MongoDB", "Express", "Socket.io"],
+      github: "https://github.com/rishabhsai/clone-date-ai",
+      status: "Co-founder",
+    },
+    {
+      title: "Briefly",
+      description:
+        "AI-powered summarization tool that transforms lengthy content into concise, digestible summaries. Features intelligent content analysis and customizable summary lengths for various document types, making information consumption more efficient.",
+      tech: ["Python", "NLP", "FastAPI", "React", "OpenAI API", "TensorFlow"],
+      github: "https://github.com/rishabhsai/briefly",
+      status: "Co-founder",
+    },
+    {
+      title: "Hidaya Spirit Guide",
+      description:
+        "Spiritual guidance application that provides personalized insights and recommendations based on Islamic teachings. Features AI-powered content generation and community-driven spiritual resources to help users on their spiritual journey.",
+      tech: ["React Native", "Firebase", "AI/ML", "Node.js", "MongoDB"],
+      github: "https://github.com/rishabhsai/-Hidaya-spiritguide/tree/Viswa's-Branch",
+      status: "Co-founder",
+    },
+    {
       title: "TrendFlip AI",
       description:
         "AI-powered e-commerce platform that analyzes market trends and consumer behavior to help businesses optimize their product strategies and maximize sales potential.",
@@ -253,6 +285,7 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
       tech: ["Next.js", "TypeScript", "CSS", "JavaScript", "Vercel"],
       github: "https://github.com/KingReaper6940/project-one",
       live: "https://project-one-j8f2-adqr6d70e-kingreaper6940s-projects.vercel.app/",
+      status: "Co-founder",
     },
     {
       title: "Veswo Bot",
@@ -260,6 +293,7 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
         "Advanced conversational AI assistant built with natural language processing capabilities, designed to provide intelligent responses and automated customer support solutions.",
       tech: ["Python", "NLP", "FastAPI", "React", "MongoDB"],
       github: "https://github.com/KingReaper6940/veswo---bot",
+      status: "Co-founder",
     },
     {
       title: "Nittany Eats",
@@ -267,11 +301,13 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
         "Comprehensive food delivery platform connecting Penn State students with local restaurants, featuring real-time order tracking, payment integration, and personalized recommendations.",
       tech: ["React Native", "Node.js", "Express", "MongoDB", "Stripe API"],
       github: "https://github.com/KingReaper6940/nittany-eats",
+      status: "Co-founder",
     },
   ]
 
-  const displayedExperiences = showAllExperiences ? allExperiences : allExperiences.slice(0, 3)
   const displayedProjects = showAllProjects ? allProjects : allProjects.slice(0, 4)
+
+  const displayedExperiences = showAllExperiences ? allExperiences : allExperiences.slice(0, 3)
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
@@ -910,12 +946,10 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
               size="lg"
               variant="outline"
               className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 rounded-full font-medium transition-all duration-300 bg-transparent hover:scale-105 hover:shadow-lg text-sm sm:text-base"
-              asChild
+              onClick={() => window.open("tel:+19148795242", "_self")}
             >
-              <Link href="tel:+19148795242">
-                <Phone className="mr-2" size={20} />
-                Call Me
-              </Link>
+              <Phone className="mr-2" size={20} />
+              Call Me
             </Button>
             <Button
               size="lg"
