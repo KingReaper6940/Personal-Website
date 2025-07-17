@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/kingreaper6940s-projects/v0-rishabhsai-website-remake](https://vercel.com/kingreaper6940s-projects/v0-rishabhsai-website-remake)**
+**[https://vercel.com/kingreaper6940s-projects/v0-rishabhsai-website-remake](https://vrishn.vercel.app)**
 
 ## Build your app
 
