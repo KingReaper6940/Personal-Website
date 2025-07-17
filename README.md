@@ -1,4 +1,4 @@
-# Rishabhsai website remake
+# Personal Portfolio
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
