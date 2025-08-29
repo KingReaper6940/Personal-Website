@@ -17,9 +17,16 @@ import {
   Eye,
   EyeOff,
   Menu,
-  X,
+  CloverIcon as CloseIcon,
 } from "lucide-react"
 import Link from "next/link"
+
+// Custom X (Twitter) icon component
+const XIcon = ({ size = 24 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+)
 
 export default function Portfolio() {
   const [isVisible, setIsVisible] = useState(false)
@@ -172,13 +179,6 @@ Veswo Bot
 Nittany Eats
 - Food delivery platform for Penn State students
 - Technologies: React Native, Node.js, Express, MongoDB, Stripe API
-
-SKILLS
-Programming Languages: JavaScript, Python, Java, TypeScript
-Frameworks & Libraries: React, Node.js, Next.js, Express, FastAPI, SpringBoot
-Databases & Cloud: MongoDB, PostgreSQL, Firebase, AWS
-AI & Machine Learning: TensorFlow, NLP, OpenAI API, LLM Engineering
-Game Development: Game Object Design, Inventory Systems, Character Creation
 `
 
     const blob = new Blob([resumeContent], { type: "text/plain" })
@@ -339,7 +339,7 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
               className="md:hidden p-2 text-gray-300 hover:text-blue-400 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {mobileMenuOpen ? <CloseIcon size={24} /> : <Menu size={24} />}
             </button>
           </div>
 
@@ -415,6 +415,14 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
               className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-125 hover:-translate-y-1"
             >
               <Linkedin size={24} />
+            </Link>
+            <Link
+              href="https://x.com/vrishnviswa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-125 hover:-translate-y-1"
+            >
+              <XIcon size={24} />
             </Link>
             <button
               onClick={handleEmailClick}
@@ -974,6 +982,14 @@ Game Development: Game Object Design, Inventory Systems, Character Creation
               className="text-blue-100 hover:text-white transition-all duration-300 hover:scale-125 hover:-translate-y-1"
             >
               <Linkedin size={28} />
+            </Link>
+            <Link
+              href="https://x.com/vrishnviswa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-100 hover:text-white transition-all duration-300 hover:scale-125 hover:-translate-y-1"
+            >
+              <XIcon size={28} />
             </Link>
             <button
               onClick={handleEmailClick}

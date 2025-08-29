@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Rishabhsai website remake
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vrish.vercel.app](https://vrishn.vercel.app)**
+**[https://vercel.com/kingreaper6940s-projects/v0-rishabhsai-website-remake](https://vercel.com/kingreaper6940s-projects/v0-rishabhsai-website-remake)**
 
 ## Build your app
 
