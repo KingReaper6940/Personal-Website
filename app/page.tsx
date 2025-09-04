@@ -143,6 +143,11 @@ CBSE Class XII: 84% overall with Centum in Artificial Intelligence
 CBSE Class X: 88%
 
 EXPERIENCE
+Campus Partner | Perplexity AI | September 2025 - Present
+- Selected as a Campus Partner to promote and educate students about Comet, Perplexity's revolutionary AI-powered browser.
+- Leading campus initiatives to demonstrate how AI can transform web browsing and research workflows.
+- Conducting workshops and presentations to showcase Comet's intelligent features, helping students understand the future of AI-integrated browsing technology and its applications in academic and professional settings.
+
 Software Engineer | Electronic Arts | December 2023
 - Completed practical software engineering tasks in game development
 - Wrote feature proposals for game enhancements
@@ -166,7 +171,7 @@ PROJECTS
 Aura (Co-founder)
 - Award-winning mental health and wellness application
 - Winner of University of West London National Science Fair
-- Technologies: React, D3.js, Firebase, Material-UI, Chart.js
+- Technologies: React, D3.js, Firebase, Material-UI, Chart.js, Machine Learning
 
 TrendFlip AI (Co-founder)
 - AI-powered e-commerce platform for market trend analysis
@@ -193,6 +198,13 @@ Nittany Eats
   }
 
   const allExperiences = [
+    {
+      title: "Campus Partner",
+      company: "Perplexity AI",
+      date: "September 2025 - Present",
+      description:
+        "Selected as a Campus Partner to promote and educate students about Comet, Perplexity's revolutionary AI-powered browser. Leading campus initiatives to demonstrate how AI can transform web browsing and research workflows. Conducting workshops and presentations to showcase Comet's intelligent features, helping students understand the future of AI-integrated browsing technology and its applications in academic and professional settings.",
+    },
     {
       title: "Software Engineer",
       company: "Electronic Arts",
